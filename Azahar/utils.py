@@ -187,7 +187,7 @@ def hydro_pairs(selection, cut_off):
                                "%s and name N* or name O*" % selection,
                                cutoff=3.5,
                                mode=1,
-                               angle=70,
+                               angle=40,
                                state1=i,
                                state2=i)
             hb.append(p)
